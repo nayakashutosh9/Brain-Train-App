@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 a[i]=s*t;
             }
             else{
-                a[i]=rand.nextInt((s*t));
+                a[i]=rand.nextInt(100+s+t+(s*t));
             }
         }
         button0.setText(Integer.toString(a[0]));
